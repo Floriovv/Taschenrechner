@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h1>Flo´s super cooler Taschenrechner</h1>
+  <div class="Rechner-body">
+    <div class="container">
+      <form action="" id="calc">
+        <div class="output-div">
+          <output id="output">0</output>
+        </div>
+        <div class="tasten">
+          <input type="button" value="0" class="button" onclick="nummer0()"/>
+          <input type="button" value="1" class="button" onclick="nummer1()"/>
+          <input type="button" value="2" class="button" onclick="nummer2()"/>
+        </div>
+        <div class="tasten">
+          <input type="button" value="3" class="button" onclick="nummer3()"/>
+          <input type="button" value="4" class="button" onclick="nummer4()"/>
+          <input type="button" value="5" class="button" onclick="nummer5()"/>
+        </div>
+        <div class="tasten">
+          <input type="button" value="6" class="button" onclick="nummer6()"/>
+          <input type="button" value="7" class="button" onclick="nummer7()"/>
+          <input type="button" value="8" class="button" onclick="nummer8()"/>
+        </div>
+        <div class="tasten">
+          <input type="button" value="9" class="button" onclick="nummer9()"/>
+          <input type="button" value="+" class="button" onclick="plus()"/>
+          <input type="button" value="-" class="button" onclick="minus()"/>
+        </div>
+        <div class="tasten">
+          <input type="button" value="*" class="button" onclick="mal()"/>
+          <input type="button" value="/" class="button" onclick="geteilt()"/>
+          <input type="button" value="=" class="button" onclick="Istgleich()"/>
+        </div>
+        <div class="tasten">
+          <div class="button"></div>
+          <button class="button reset">RESET</button>
+          <div class="button"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
